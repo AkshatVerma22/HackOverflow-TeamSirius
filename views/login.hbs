@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="container1"></div>
+<div class="modal is-open">
+    <form action="/login" method="post">
+  <div class="modal-container">
+    <div class="modal-left">
+      <h1 class="modal-title">Login!</h1>
+      <p class="modal-desc">SIRIUS - Let's be sirius</p>
+      <div class="input-block">
+        <label for="email" class="input-label" style="background-color: #2B2B2B">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" style="background-color: #2B2B2B; color: white" required>
+      </div>
+      <div class="input-block">
+        <label for="password" class="input-label" style="background-color: #2B2B2B">Password</label>
+        <input type="password" name="password" id="password" placeholder="Password" style="background-color: #2B2B2B; color: white" required>
+      </div>
+      <div class="modal-buttons">
+        <button class="input-button" type="submit">Login</button>
+      </div>
+      <p class="sign-up">Don't have an account? <a href="/register">Sign up now</a></p>
+    </div>
+    <div class="modal-right">
+      <img src="https://images.unsplash.com/photo-1601878773113-68f0ced6a55a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cnVyYWwlMjBpbmRpYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+  </div>
+  <button class="modal-button">Click here to login</button>
+  </form>
+</div>
+<!-- partial -->
+  <script  src="js/script.js"></script>
+
+</body>
+</html>

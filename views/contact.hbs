@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/main3.css" />
+</head>
+
+<body class="is-preload">
+
+    <div id="header">
+        <h1>Contact Our Team</h1>
+        <p>Our team of philanthropists will hear about your problems,queries & suggestions and will surely try to solve
+            your misery!
+            <br />
+            Team Sirius
+        </p>
+    </div>
+
+    <div id="main">
+
+        <header class="major container medium" style="background-color: rgba(7, 4, 32, 0.91);
+				;">
+            <h2 style="color:white ;">Visit Us at</h2>
+        </header>
+
+        <div class="box alt container">
+            <section class="feature left">
+                <a href="#" class="image icon"><img src="images/cblock.jpeg" style="width: 30%;" alt="" /></a>
+                <div class="content" style="backdrop-filter: blur(5px);">
+                    <h3>C-Block,VIT Chennai</h3>
+                    <p>Kelambakkam - Vandalur Rd, Rajan Nagar, Chennai, Tamil Nadu 600127</p>
+                    Ph. no: 8969993229
+                </div>
+            </section>
+            <section class="feature right">
+                <a href="#" class="image icon"><img src="images/ablock.jfif" alt="" /></a>
+                <div class="content">
+                    <h3>A-Block,VIT Chennai</h3>
+                    <p>Kelambakkam - Vandalur Rd, Rajan Nagar, Chennai, Tamil Nadu 600127</p>
+                    Ph. no: 8307208145
+                </div>
+            </section>
+
+        </div>
+
+
+
+        <footer class="major container medium">
+            <h3>Send in your queries & problems below</h3>
+            <p>Our team will contact you soon</p>
+            <ul class="actions special">
+                <li><a href="#" class="button" style="color: white;">Home</a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container medium">
+
+            <header class="major last">
+                <h2>Questions or comments?</h2>
+            </header>
+
+            <p>Post your comments to reach us and we will contact you soon!</p>
+
+            <form method="post" action="/contact-form" class="contact_form">
+                <div class="row">
+                    <div class="col-6 col-12-mobilep">
+                        <input type="text" name="name" placeholder="Name" class="name" required />
+                    </div>
+                    <div class="col-6 col-12-mobilep">
+                        <input type="email" name="email" placeholder="Email" class="email" required />
+                    </div>
+                    <div class="col-12">
+                        <textarea name="message" placeholder="Message" id="message" rows="6" class="msg"
+                            required></textarea>
+                    </div>
+                    <div class="col-12">
+                        {{!-- <ul class="actions special">
+                            <li><input style="color: white;background-color:black" type="submit" value="Send Message" />
+                            </li>
+                        </ul> --}}
+                        <div class="box1" onclick="alertpop()">
+                            <button class="btn"
+                                    type="submit">Send
+                                    Message</button>
+                                    
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+
+            <ul class="copyright">
+                <li>&copy; Team Sirius</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery2.min.js"></script>
+    <script src="js/browser2.min.js"></script>
+    <script src="js/breakpoints2.min.js"></script>
+    <script src="js/util2.js"></script>
+    <script src="js/main2.js"></script>
+    <script>
+        function alertpop(){
+            alert("Thanks for contacting us. Our team will reach you soon.Thank You! ")
+        }
+    </script>
+
+
+
+</body>
+
+</html>
